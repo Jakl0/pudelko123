@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>pudelko</title>
+</head>
+<body>
+    <script>
+        let wysokosc;
+        let szerokosc;
+        let dlugosc;
+            wysokosc = Number(prompt("podaj wysokosc twojego pudelka"));
+            dlugosc = Number(prompt("podaj dlugosc twojego pudelka"));
+            szerokosc = Number(prompt("podaj szerokosc twojego pudelka"));
+        document.write(wysokosc*dlugosc*szerokosc);
+
+    </script>
+</body>
+</html>
